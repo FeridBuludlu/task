@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-decoration: none;
+  }
+  body {
+    font-family: "Source Sans 3", sans-serif;
+  }
+  header{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .header-top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+    width: 100%;
+  }
+  .header-top .nav-items nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+  }
+  .header-top .nav-items nav ul .first a {
+    color: black;
+    font-weight: bold;
+  }
+  .header-top .nav-items nav ul a {
+    font-size: 14px;
+    color: black;
+  }
+  .header-top .nav-items nav ul i {
+    color: red;
+  }
+  button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: red;
+  }
+  .header-bottom {
+    width: 100%;
+    background-color: #e8ecf1;
+    display: flex;
+    height: 80px;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .header-bottom .elements ul {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+  }
+  .header-bottom .elements ul li a{
+      color: black;
+      font-size: 14px;
+  }
+  .header-bottom .kapital-svg {
+  background-color: red;
+  width: 100px;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .icons {
+    display: none;
+    gap: 10px;
+  }
+  .icons .icon{
+    background-color: red;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .icons .icon i{
+    color: white;
+    font-size: 25px;
+  }
+  .cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center ;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    
+  }
+  .cards .card{
+    border: 1px solid black;
+    width: 500px;
+    border-radius: 19px;
+    margin-top: 30px;
+  }
+  .cards .card img{
+    width: 100%;
+  }
+  .cards .card h3{
+    padding: 10px;
+  }
+  /* ? Responsive Area Start */
+   
+  @media only screen and (max-width: 986px) {
+   .header-top .nav-items nav{
+    display: none;
+   }
+    .header-bottom{
+      display:none ;
+    }
+    .header-top .nav-items .icons{
+      display: flex;
+    }
+    
+  }
+  
